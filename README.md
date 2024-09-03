@@ -28,3 +28,34 @@
 2. enter your key
 3. `git checkout main`
 4. `git merge origin/main --ff-only`
+
+## 7 .gitignore and .gitattributes
+`.gitignore`
+```gitignore
+# Platform specified files
+.DS_Store
+
+# Code editors
+.atom/
+.fleet/
+.idea/
+
+*.iml
+*.ipr
+*.iws
+
+*.sln
+*.swp
+
+# Pycharm
+__pycache__/
+*.py[cod]
+*$py.class
+```
+
+`.gitattributes`
+```gitignore
+# https://git-scm.com/book/zh/v2/
+* text=auto eol=lf
+windows/**/* text=auto eol=crlf
+```
