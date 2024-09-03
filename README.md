@@ -1,5 +1,15 @@
 # git and github
 
+```text
+# git config is important
+git config user.name <NAME>
+git config user.email <EMAIL>
+
+or: 
+git config --global user.name <NAME>
+git config --global user.email <EMAIL>
+```
+
 ## 1 init the first commit
 1. `git init`
 2. `git add .`
