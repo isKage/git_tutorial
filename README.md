@@ -14,4 +14,6 @@
 2. git push -u origin main
 > note: ssh key
 
-
+## 4 change and push to github
+1. git push (or: git push --all)
+2. enter your key
