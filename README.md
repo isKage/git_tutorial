@@ -17,3 +17,7 @@
 ## 4 change and push to github
 1. git push (or: git push --all)
 2. enter your key
+
+## 5 change and pull from github
+1. git pull --ff-only
+2. enter your key
