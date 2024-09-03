@@ -27,4 +27,4 @@
 1. `git fetch`
 2. enter your key
 3. `git checkout main`
-4. git merge origin/main --ff-only
+4. `git merge origin/main --ff-only`
